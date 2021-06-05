@@ -5,9 +5,9 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ master ]
   pull_request:
-    branches: [ dev ]
+    branches: [ master ]
 
 jobs:
   tests:
@@ -20,7 +20,7 @@ jobs:
       - name: Run test
         env:
           SELENIUM_HUB_HOST: 'localhost'
-        run: mvn clean test
+        run: mvn clean test -Denvironemnt=qa
       - name: Deploy report to github pages
         uses: peaceiris/actions-gh-pages@v3
         with:
