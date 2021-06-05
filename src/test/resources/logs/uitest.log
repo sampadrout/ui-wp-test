@@ -26,3 +26,15 @@ INFO    2021-02-02 09:37:33,930 [TestNG-test=WordPress Account-1] com.ui.core.fr
 INFO    2021-02-02 09:37:33,937 [TestNG-test=WordPress Account-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
 INFO    2021-02-02 09:37:33,938 [TestNG-test=WordPress Account-4] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testInvalidLogin - Wordpress Invalid_Login Test
 INFO    2021-02-02 09:37:33,939 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress Account
+INFO    2021-06-05 15:33:56,235 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-05 15:33:56,235 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-05 15:33:56,242 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-05 15:33:56,242 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 2
+INFO    2021-06-05 19:21:55,254 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-05 19:21:55,254 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-05 19:21:55,260 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-05 19:21:55,260 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 2
+INFO    2021-06-05 21:01:57,163 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-05 21:01:57,163 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-05 21:01:57,170 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-05 21:01:57,170 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 2

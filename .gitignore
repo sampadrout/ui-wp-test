@@ -1,4 +1,5 @@
-/target/
-/.idea/
-/allure-results/
-/target/
+.idea/
+allure-results/
+target/
+ui-test.iml
+/src/test/resources/logs/*.log

@@ -17,7 +17,7 @@
         <dependency>
             <groupId>com.ui.automation.framework</groupId>
             <artifactId>ui-core-framework</artifactId>
-            <version>LATEST</version>
+            <version>1.2-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
@@ -36,7 +36,7 @@
         </repository>
         <repository>
             <id>github</id>
-            <url>https://sampadrout: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@maven.pkg.github.com/sampadrout/ui-core-framework</url>
+            <url>https://maven.pkg.github.com/sampadrout/ui-core-framework</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>

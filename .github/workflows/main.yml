@@ -1,19 +1,28 @@
-name: Run tests on Zalenium
+# This workflow will build a Java project with Maven
+# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
+
+name: Java CI with Maven
 
 on:
   push:
-    branches: [ main ]
+    branches: [ dev ]
+  pull_request:
+    branches: [ dev ]
 
 jobs:
   tests:
     runs-on: ubuntu-latest
-    name: Zalenium Server
+    name: UI Automation
     steps:
-    - uses: actions/checkout@v2
-    - name: Zalenium Server
-      uses: ajinx/zalenium@1.1
-    - name: Run test
-      env:
-        SELENIUM_HUB_HOST: 'localhost'
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-      run: mvn -s settings.xml clean test -Denvironment=qa -DHUB_HOST=http://localhost:4444/wd/hub
+      - uses: actions/checkout@v2
+      - name: Zalenium
+        uses: ajinx/zalenium@1.1
+      - name: Run test
+        env:
+          SELENIUM_HUB_HOST: 'localhost'
+        run: mvn clean test
+      - name: Deploy report to github pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./target/surefire-reports
