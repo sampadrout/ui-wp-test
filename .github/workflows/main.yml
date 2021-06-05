@@ -1,0 +1,19 @@
+name: Run tests on Zalenium
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    name: Zalenium Server
+    steps:
+    - uses: actions/checkout@v2
+    - name: Zalenium Server
+      uses: ajinx/zalenium@1.1
+    - name: Run test
+      env:
+        SELENIUM_HUB_HOST: 'localhost'
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+      run: mvn -s settings.xml clean test -Denvironment=qa -DHUB_HOST=http://localhost:4444/wd/hub
