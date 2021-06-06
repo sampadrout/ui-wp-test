@@ -21,8 +21,17 @@ jobs:
         env:
           SELENIUM_HUB_HOST: 'localhost'
         run: mvn -s settings.xml clean test -Dcloud=localhost -Denvironment=qa -Dheadless=true
+      - name: Create allure report
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        id: allure-report
+        with:
+          allure_results: ./target/allure-results
+          gh_pages: gh-pages
+          allure_report: allure-report
       - name: Deploy report to github pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./target/surefire-reports
+          publish_branch: gh-pages
+          publish_dir: ./target/allure-report
