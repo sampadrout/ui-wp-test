@@ -1,0 +1,64 @@
+{
+  "c0e4cc59f6e3598622da88f0a2a7e200" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29ea9eefa8b61835",
+      "reportUrl" : "https://sampadrout.github.io/ui-wp-test/10//#testresult/29ea9eefa8b61835",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.xpath: //strong[contains(text(),'Welcome!')] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1623074046276,
+        "stop" : 1623074086536,
+        "duration" : 40260
+      }
+    } ]
+  },
+  "2e827dc58cc9f1c3065724d67de77166" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8cdb2486a7f7c3a5",
+      "reportUrl" : "https://sampadrout.github.io/ui-wp-test/10//#testresult/8cdb2486a7f7c3a5",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.xpath: //strong[contains(text(),'Welcome!')] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1623074002920,
+        "stop" : 1623074045772,
+        "duration" : 42852
+      }
+    } ]
+  },
+  "d6ecb7736917b1ddc8007bf3b25631fb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ffc302826c208ab0",
+      "reportUrl" : "https://sampadrout.github.io/ui-wp-test/10//#testresult/ffc302826c208ab0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623074002922,
+        "stop" : 1623074014477,
+        "duration" : 11555
+      }
+    } ]
+  }
+}
