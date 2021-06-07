@@ -20,7 +20,7 @@ jobs:
       - name: Run test
         env:
           SELENIUM_HUB_HOST: 'localhost'
-        run: mvn -s settings.xml clean test -Dcloud=localhost -Denvironment=qa -Dheadless=true
+        run: mvn clean test -Dcloud=localhost -Denvironment=qa -Dheadless=true
       - name: Create allure report
         uses: simple-elf/allure-report-action@master
         if: always()
