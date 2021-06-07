@@ -1,0 +1,56 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az182-602",
+    "children" : [ {
+      "name" : "5463@fv-az182-602.TestNG-tests-2(15)",
+      "children" : [ {
+        "name" : "Wordpress Sample Create Account Test",
+        "uid" : "e7de64bc6f2b1bae",
+        "parentUid" : "0ff13862065b987d9108cf799770d1a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623078121076,
+          "stop" : 1623078132565,
+          "duration" : 11489
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{emailAddress=cbc_sample@test.com, password=New@123_, userName=cbc_sample, url=https://www.wordpress.com}", "chrome", "web" ]
+      } ],
+      "uid" : "0ff13862065b987d9108cf799770d1a0"
+    }, {
+      "name" : "5463@fv-az182-602.TestNG-tests-1(14)",
+      "children" : [ {
+        "name" : "Wordpress Invalid_Login Test",
+        "uid" : "293a58a766318277",
+        "parentUid" : "9da3d889880ddf448d5d6ebf3cf1744e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1623078164162,
+          "stop" : 1623078203766,
+          "duration" : 39604
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{emailAddress=ajith.hmath@gmail.com, password=New@12123, url=https://www.wordpress.com}", "chrome", "web" ]
+      }, {
+        "name" : "Wordpress Valid_Login Test",
+        "uid" : "8a0aa61452a4b2f0",
+        "parentUid" : "9da3d889880ddf448d5d6ebf3cf1744e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1623078121081,
+          "stop" : 1623078163725,
+          "duration" : 42644
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{emailAddress=ajith.hmath@gmail.com, password=New@123_, url=https://www.wordpress.com}", "chrome", "web" ]
+      } ],
+      "uid" : "9da3d889880ddf448d5d6ebf3cf1744e"
+    } ],
+    "uid" : "3e7df03fcdc8f518b95cb8d89d58230f"
+  } ],
+  "name" : "timeline"
+}

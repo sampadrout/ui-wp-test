@@ -1,0 +1,64 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Test Suite",
+    "children" : [ {
+      "name" : "WordPress UI Automation - 2",
+      "children" : [ {
+        "name" : "tests.Wordpress_CreateAccount_Test",
+        "children" : [ {
+          "name" : "Wordpress Sample Create Account Test",
+          "uid" : "e7de64bc6f2b1bae",
+          "parentUid" : "c4336d21a31e85eead04356f399491ac",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623078121076,
+            "stop" : 1623078132565,
+            "duration" : 11489
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{emailAddress=cbc_sample@test.com, password=New@123_, userName=cbc_sample, url=https://www.wordpress.com}", "chrome", "web" ]
+        } ],
+        "uid" : "c4336d21a31e85eead04356f399491ac"
+      } ],
+      "uid" : "63350500617c3e885d0055828a332e97"
+    }, {
+      "name" : "WordPress UI Automation - 1",
+      "children" : [ {
+        "name" : "tests.Wordpress_Login_Test",
+        "children" : [ {
+          "name" : "Wordpress Valid_Login Test",
+          "uid" : "8a0aa61452a4b2f0",
+          "parentUid" : "eeaecd711e48f18ed3c038add75f855b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1623078121081,
+            "stop" : 1623078163725,
+            "duration" : 42644
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{emailAddress=ajith.hmath@gmail.com, password=New@123_, url=https://www.wordpress.com}", "chrome", "web" ]
+        }, {
+          "name" : "Wordpress Invalid_Login Test",
+          "uid" : "293a58a766318277",
+          "parentUid" : "eeaecd711e48f18ed3c038add75f855b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1623078164162,
+            "stop" : 1623078203766,
+            "duration" : 39604
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{emailAddress=ajith.hmath@gmail.com, password=New@12123, url=https://www.wordpress.com}", "chrome", "web" ]
+        } ],
+        "uid" : "eeaecd711e48f18ed3c038add75f855b"
+      } ],
+      "uid" : "fadcf6fb7ca7bdcad1150b4aa5cc2760"
+    } ],
+    "uid" : "70f4612f25dd624e3fa5910864552138"
+  } ],
+  "name" : "suites"
+}
