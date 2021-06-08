@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://sampadrout.github.io/ui-wp-test",
+  "buildOrder" : 15,
+  "buildName" : "GitHub Actions Run #917547584",
+  "buildUrl" : "https://github.com/sampadrout/ui-wp-test/actions/runs/917547584",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://sampadrout.github.io/ui-wp-test/15/"
+} ]

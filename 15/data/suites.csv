@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jun 08 07:56:05 GMT 2021","Tue Jun 08 07:56:16 GMT 2021","11721","Test Suite","WordPress UI Automation - 2","tests.Wordpress_CreateAccount_Test","tests.Wordpress_CreateAccount_Test","testSampleWordPressAccount","Wordpress Sample Create Account Test",""
+"broken","Tue Jun 08 07:56:48 GMT 2021","Tue Jun 08 07:57:28 GMT 2021","39920","Test Suite","WordPress UI Automation - 1","tests.Wordpress_Login_Test","tests.Wordpress_Login_Test","testInvalidLogin","Wordpress Invalid_Login Test",""
+"broken","Tue Jun 08 07:56:05 GMT 2021","Tue Jun 08 07:56:47 GMT 2021","42916","Test Suite","WordPress UI Automation - 1","tests.Wordpress_Login_Test","tests.Wordpress_Login_Test","testValidLogin","Wordpress Valid_Login Test",""

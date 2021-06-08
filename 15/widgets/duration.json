@@ -1,0 +1,31 @@
+[ {
+  "uid" : "8ef2a0697e853db1",
+  "name" : "Wordpress Sample Create Account Test",
+  "time" : {
+    "start" : 1623138965033,
+    "stop" : 1623138976754,
+    "duration" : 11721
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cafbd80daac8c7a9",
+  "name" : "Wordpress Invalid_Login Test",
+  "time" : {
+    "start" : 1623139008447,
+    "stop" : 1623139048367,
+    "duration" : 39920
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "866c232f4115902a",
+  "name" : "Wordpress Valid_Login Test",
+  "time" : {
+    "start" : 1623138965037,
+    "stop" : 1623139007953,
+    "duration" : 42916
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

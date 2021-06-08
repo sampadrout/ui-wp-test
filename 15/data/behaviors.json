@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Wordpress Sample Create Account Test",
+    "uid" : "8ef2a0697e853db1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1623138965033,
+      "stop" : 1623138976754,
+      "duration" : 11721
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{emailAddress=cbc_sample@test.com, password=New@123_, userName=cbc_sample, url=https://www.wordpress.com}", "chrome", "web" ]
+  }, {
+    "name" : "Wordpress Valid_Login Test",
+    "uid" : "866c232f4115902a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1623138965037,
+      "stop" : 1623139007953,
+      "duration" : 42916
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{emailAddress=ajith.hmath@gmail.com, password=New@123_, url=https://www.wordpress.com}", "chrome", "web" ]
+  }, {
+    "name" : "Wordpress Invalid_Login Test",
+    "uid" : "cafbd80daac8c7a9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1623139008447,
+      "stop" : 1623139048367,
+      "duration" : 39920
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{emailAddress=ajith.hmath@gmail.com, password=New@12123, url=https://www.wordpress.com}", "chrome", "web" ]
+  } ],
+  "name" : "behaviors"
+}
