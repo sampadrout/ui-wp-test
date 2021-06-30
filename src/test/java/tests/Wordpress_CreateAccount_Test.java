@@ -27,9 +27,9 @@ public class Wordpress_CreateAccount_Test extends BaseTest {
 	public void testSampleWordPressAccount(Map<String, String> data) throws Exception {
 
 		page.getPageInstance(HomePage.class).navigateTo(data.get("url"));
-		Assert.assertTrue(page.getPageInstance(HomePage.class).verifyWordPressPageDisplayed(), "The Wordpress Homepage has not displayed...");
+		Assert.assertTrue(page.getPageInstance(HomePage.class).verifyWPHomePageDisplayed(), "The Wordpress Homepage has not displayed...");
 		
-		page.getPageInstance(HomePage.class).clickStartYourSite();
+		page.getPageInstance(HomePage.class).clickSignup();
 		Assert.assertTrue(page.getPageInstance(CreateAccountPage.class).verifyCreateAccountPageDisplayed(), "Create Your Account Page has not Displayed...");
 
 		page.getPageInstance(CreateAccountPage.class).createUserAccount(data);

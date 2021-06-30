@@ -1,9 +1,8 @@
 package poms;
 
-
-
 import java.util.Map;
 
+import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,23 +15,34 @@ import io.qameta.allure.Step;
 public class LoginAccountPage extends BasePage {
 
 	@FindBy(xpath = "//div[@class='login__form-header']")
+	@AndroidFindBy(id = "label")
 	private WebElement lbl_LoginAccountPageTitle;
 
 	@FindBy(xpath = "//input[@id='usernameOrEmail']")
+	@AndroidFindBy(id = "input")
 	private WebElement txt_EmailAddress;
 
+	@FindBy(xpath = "//button[@class='button form-button is-primary'][contains(text(),'Continue')]")
+	@AndroidFindBy(id = "primary_button")
+	private WebElement btn_Continue;
+
+	@AndroidFindBy(id = "login_enter_password")
+	private WebElement link_EnterPassword;
+
 	@FindBy(xpath = "//input[@id='password']")
+	@AndroidFindBy(id = "input")
 	private WebElement txt_Password;
 
-	@FindBy(xpath = "//button[@class='button form-button is-primary'][contains(text(),'Continue')]")
-	private WebElement btn_Continue;
-	
 	@FindBy(xpath = "//button[@class='button form-button is-primary'][contains(text(),'Log In')]")
 	private WebElement btn_Login;
 	
 	@FindBy(xpath = "//input[@id='password']/../../div[2]/span")
+	@AndroidFindBy(id = "textinput_error")
 	private WebElement lbl_InvalidPasswordErrorMsg;
-	
+
+	@AndroidFindBy(id = "signup_email")
+	private WebElement btn_SignupWithEmail;
+
 	Wait wait = new Wait();
 
 	public LoginAccountPage(WebDriver driver) throws InterruptedException {
@@ -41,10 +51,7 @@ public class LoginAccountPage extends BasePage {
 
 	@Step("Verify 'Login into your account' page displayed...")
 	public boolean verifyLoginAccountPageDisplayed() throws Exception {
-		if(getLabel(wait.waitForElementToBeVisible(lbl_LoginAccountPageTitle, webdriver)).contains("Log in to your account")) {
-			return true;
-		}
-		return false;
+		return getLabel(wait.waitForElementToBeVisible(lbl_LoginAccountPageTitle, webdriver)).contains("Log in to your account");
 	}
 
 	@Step("Enter Credentials & Login...")

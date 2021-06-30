@@ -38,3 +38,367 @@ INFO    2021-06-05 21:01:57,163 [TestNG-tests-1] com.ui.core.framework.utilities
 INFO    2021-06-05 21:01:57,163 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
 INFO    2021-06-05 21:01:57,170 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
 INFO    2021-06-05 21:01:57,170 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 2
+INFO    2021-06-05 21:20:03,606 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-05 21:20:03,606 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-05 21:20:03,614 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 2
+INFO    2021-06-05 21:20:03,614 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-05 21:35:57,161 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-05 21:35:57,161 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-05 21:35:57,167 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-05 21:35:57,167 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 2
+INFO    2021-06-05 21:36:32,183 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-05 21:36:32,183 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-05 21:36:32,190 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-05 21:36:32,190 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 2
+INFO    2021-06-05 21:58:36,385 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-05 21:58:36,385 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-05 21:58:36,396 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-05 21:58:36,396 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 2
+INFO    2021-06-05 22:11:42,498 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-05 22:11:42,498 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-05 22:11:42,504 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-05 22:11:42,504 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 2
+INFO    2021-06-05 22:12:37,188 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC01"}
+INFO    2021-06-05 22:12:37,188 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-05 22:12:41,454 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=cbc_sample@test.com, userName=cbc_sample, password=New@123_}]
+INFO    2021-06-05 22:12:41,669 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-05 22:12:50,120 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Chrome local driver initialized
+INFO    2021-06-05 22:12:50,135 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - chrome driver has been created for execution
+INFO    2021-06-05 22:12:50,162 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Chrome local driver initialized
+INFO    2021-06-05 22:12:50,192 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - chrome driver has been created for execution
+INFO    2021-06-05 22:12:50,332 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST START: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-05 22:12:50,332 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST START: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-05 22:12:50,525 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-05 22:12:50,525 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-05 22:12:53,903 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-05 22:12:53,959 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-05 22:12:54,061 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-05 22:12:54,078 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-05 22:12:54,109 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-05 22:12:54,236 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-05 22:12:56,283 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-05 22:12:56,974 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-05 22:13:02,693 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST PASS: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-05 22:13:02,822 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Driver instance has been quit from execution
+INFO    2021-06-05 22:13:02,825 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 2
+INFO    2021-06-05 22:13:03,403 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-05 22:13:34,533 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-05 22:13:35,256 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Driver instance has been quit from execution
+INFO    2021-06-05 22:13:35,268 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-05 22:13:39,670 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-05 22:13:41,000 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Chrome local driver initialized
+INFO    2021-06-05 22:13:41,021 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - chrome driver has been created for execution
+INFO    2021-06-05 22:13:41,038 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST START: testInvalidLogin - Wordpress Invalid_Login Test
+INFO    2021-06-05 22:13:41,272 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-05 22:13:45,464 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-05 22:13:45,499 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-05 22:13:45,570 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-05 22:13:48,313 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-05 22:13:54,686 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-05 22:14:25,764 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testInvalidLogin - Wordpress Invalid_Login Test
+INFO    2021-06-05 22:14:26,283 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Driver instance has been quit from execution
+INFO    2021-06-05 22:14:26,284 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-06 20:19:39,995 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC01"}
+INFO    2021-06-06 20:19:39,995 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-06 20:19:44,023 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=cbc_sample@test.com, userName=cbc_sample, password=New@123_}]
+INFO    2021-06-06 20:19:44,023 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-06 20:19:46,935 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Chrome local driver initialized
+INFO    2021-06-06 20:19:46,960 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - chrome driver has been created for execution
+INFO    2021-06-06 20:19:47,115 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Chrome local driver initialized
+INFO    2021-06-06 20:19:47,119 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST START: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-06 20:19:47,122 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - chrome driver has been created for execution
+INFO    2021-06-06 20:19:47,210 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST START: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-06 20:19:47,327 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-06 20:19:47,327 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-06 20:19:51,627 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-06 20:19:51,685 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-06 20:19:51,772 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-06 20:19:51,867 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-06 20:19:51,897 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-06 20:19:52,003 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-06 20:19:54,949 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-06 20:19:55,477 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-06 20:20:01,286 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST PASS: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-06 20:20:01,416 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Driver instance has been quit from execution
+INFO    2021-06-06 20:20:01,418 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 2
+INFO    2021-06-06 20:20:01,900 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-06 20:20:33,047 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-06 20:20:33,731 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Driver instance has been quit from execution
+INFO    2021-06-06 20:20:33,821 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-06 20:20:37,508 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-06 20:20:38,793 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Chrome local driver initialized
+INFO    2021-06-06 20:20:38,832 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - chrome driver has been created for execution
+INFO    2021-06-06 20:20:38,872 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST START: testInvalidLogin - Wordpress Invalid_Login Test
+INFO    2021-06-06 20:20:38,911 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-06 20:20:44,332 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-06 20:20:44,362 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-06 20:20:44,433 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-06 20:20:47,115 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-06 20:20:53,479 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-06 20:21:24,591 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testInvalidLogin - Wordpress Invalid_Login Test
+INFO    2021-06-06 20:21:25,112 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Driver instance has been quit from execution
+INFO    2021-06-06 20:21:25,113 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-07 13:47:47,706 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-07 13:47:47,706 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-07 13:47:47,714 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-07 13:47:47,714 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 2
+INFO    2021-06-07 13:54:41,376 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-07 13:54:41,376 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-07 13:54:41,383 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-07 13:54:41,383 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 2
+INFO    2021-06-07 14:52:27,373 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-07 14:52:27,373 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-07 14:52:27,379 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-07 14:52:27,379 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 2
+INFO    2021-06-07 14:54:02,384 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-07 14:54:02,384 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-07 14:54:02,390 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 2
+INFO    2021-06-07 14:54:02,390 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-14 13:01:48,609 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-14 13:01:48,610 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-14 13:01:48,620 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-14 13:01:48,620 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 2
+INFO    2021-06-14 13:02:49,520 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC01"}
+INFO    2021-06-14 13:02:49,520 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-14 13:02:54,280 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=cbc_sample@test.com, userName=cbc_sample, password=New@123_}]
+INFO    2021-06-14 13:02:54,336 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-14 13:03:04,629 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Chrome local driver initialized
+INFO    2021-06-14 13:03:04,643 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Chrome local driver initialized
+INFO    2021-06-14 13:03:04,649 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - chrome driver has been created for execution
+INFO    2021-06-14 13:03:04,666 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - chrome driver has been created for execution
+INFO    2021-06-14 13:03:04,781 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST START: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-14 13:03:04,781 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST START: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-14 13:03:05,015 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-14 13:03:05,015 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-14 13:03:16,729 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-14 13:03:16,741 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-14 13:03:16,805 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-14 13:03:16,805 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-14 13:03:16,922 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-14 13:03:16,927 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-14 13:03:19,531 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-14 13:03:24,297 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-14 13:03:30,782 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-14 13:03:52,896 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-06-14 13:03:53,488 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - Driver instance has been quit from execution
+INFO    2021-06-14 13:03:53,491 [TestNG-tests-2] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 2
+INFO    2021-06-14 13:04:01,886 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-06-14 13:04:02,601 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Driver instance has been quit from execution
+INFO    2021-06-14 13:04:03,028 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-14 13:04:08,691 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-14 13:04:10,458 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Chrome local driver initialized
+INFO    2021-06-14 13:04:10,472 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - chrome driver has been created for execution
+INFO    2021-06-14 13:04:10,527 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST START: testInvalidLogin - Wordpress Invalid_Login Test
+INFO    2021-06-14 13:04:10,529 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-14 13:04:20,241 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-14 13:04:20,271 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-14 13:04:20,359 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-14 13:04:26,505 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-14 13:04:32,940 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-14 13:05:04,035 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testInvalidLogin - Wordpress Invalid_Login Test
+INFO    2021-06-14 13:05:04,674 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Driver instance has been quit from execution
+INFO    2021-06-14 13:05:04,676 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-29 21:39:22,256 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Killing existing appium process
+INFO    2021-06-29 21:39:23,060 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-29 21:39:23,060 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-29 21:39:23,080 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-29 21:39:23,138 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-29 21:39:23,138 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-29 21:39:23,138 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-29 21:39:39,102 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Killing existing appium process
+INFO    2021-06-29 21:39:39,807 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-29 21:39:39,807 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-29 21:39:40,678 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-29 21:39:45,426 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-29 21:39:45,559 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-29 21:39:45,859 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-29 21:39:49,599 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-29 21:39:49,601 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testSignup - Verify Wordpress Signup page Test
+INFO    2021-06-29 21:39:49,605 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-29 21:39:49,605 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-29 21:39:49,605 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-29 21:39:58,323 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Killing existing appium process
+INFO    2021-06-29 21:40:00,232 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-29 21:40:00,232 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-29 21:40:01,074 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-29 21:40:05,156 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-29 21:40:05,280 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-29 21:40:05,579 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-29 21:40:09,417 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-29 21:40:09,418 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testSignup - Verify Wordpress Signup page Test
+INFO    2021-06-29 21:40:11,488 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-29 21:40:11,488 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-29 21:40:11,488 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-29 21:41:03,456 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Killing existing appium process
+INFO    2021-06-29 21:41:05,200 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-29 21:41:05,200 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-29 21:41:06,073 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-29 21:41:10,591 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-29 21:41:10,709 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-29 21:41:11,060 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-29 21:41:15,357 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-29 21:41:15,358 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testSignup - Verify Wordpress Signup page Test
+INFO    2021-06-29 21:41:17,470 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-29 21:41:17,470 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-29 21:41:17,470 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-29 21:42:28,815 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Killing existing appium process
+INFO    2021-06-29 21:42:29,864 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-29 21:42:29,864 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-29 21:42:31,099 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-29 21:42:36,779 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-29 21:42:36,895 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-29 21:42:37,191 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-29 21:42:41,561 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-29 21:42:41,562 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testSignup - Verify Wordpress Signup page Test
+INFO    2021-06-29 21:42:43,670 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-29 21:42:43,670 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-29 21:42:43,670 [TestNG-tests-1] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-30 15:18:41,092 [main] com.ui.core.framework.utilities.LoadLogger  - Killing existing appium process
+INFO    2021-06-30 15:18:43,429 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-30 15:18:43,430 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-30 15:18:44,274 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-30 15:18:49,216 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-30 15:18:49,362 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-30 15:18:49,667 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-30 15:18:54,326 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-30 15:18:54,327 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testSignup - Verify Wordpress Signup page Test
+INFO    2021-06-30 15:18:56,402 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-30 15:18:56,402 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-30 15:18:56,402 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-30 15:59:34,156 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-30 15:59:39,069 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-30 15:59:42,172 [main] com.ui.core.framework.utilities.LoadLogger  - Received the Pixel device configuration for execution
+INFO    2021-06-30 15:59:42,771 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-30 15:59:43,090 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-30 15:59:47,426 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-30 15:59:47,427 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testSignup - Verify Wordpress Signup page Test
+INFO    2021-06-30 15:59:47,432 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-30 16:00:02,048 [main] com.ui.core.framework.utilities.LoadLogger  - Killing existing appium process
+INFO    2021-06-30 16:00:03,788 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-30 16:00:03,788 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-30 16:00:04,543 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-30 16:00:09,684 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-30 16:00:09,823 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-30 16:00:10,306 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-30 16:00:14,135 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-30 16:00:14,135 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testSignup - Verify Wordpress Signup page Test
+INFO    2021-06-30 16:00:16,248 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-30 16:00:16,249 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-30 16:00:16,249 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-30 16:05:52,799 [main] com.ui.core.framework.utilities.LoadLogger  - Killing existing appium process
+INFO    2021-06-30 16:05:54,315 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-30 16:05:58,651 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-30 16:05:58,660 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-30 16:05:58,957 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-30 16:06:02,745 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-30 16:06:02,745 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testSignup - Verify Wordpress Signup page Test
+INFO    2021-06-30 16:06:02,748 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: ui-test
+INFO    2021-06-30 16:11:47,855 [main] com.ui.core.framework.utilities.LoadLogger  - Killing existing appium process
+INFO    2021-06-30 16:11:49,520 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-30 16:11:49,521 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-30 16:11:50,454 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-30 16:11:55,479 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-30 16:11:55,660 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-30 16:11:55,932 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-30 16:12:00,046 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-30 16:12:00,046 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testSignup - Verify Wordpress Signup page Test
+INFO    2021-06-30 16:12:02,149 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-30 16:12:02,149 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-30 16:12:02,150 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-30 16:22:02,396 [main] com.ui.core.framework.utilities.LoadLogger  - Killing existing appium process
+INFO    2021-06-30 16:22:04,142 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-30 16:22:04,143 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-30 16:22:05,083 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-30 16:22:11,218 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-30 16:22:11,350 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-30 16:22:11,669 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-30 16:22:15,691 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-30 16:22:15,692 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testSignup - Verify Wordpress Signup page Test
+INFO    2021-06-30 16:22:17,801 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-30 16:22:17,801 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-30 16:22:17,801 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-30 16:23:25,289 [main] com.ui.core.framework.utilities.LoadLogger  - Killing existing appium process
+INFO    2021-06-30 16:23:26,828 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-30 16:23:26,828 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-30 16:23:27,567 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-30 16:23:32,727 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-30 16:23:32,853 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-30 16:23:33,125 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-30 16:23:37,348 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-30 16:23:37,348 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testSignup - Verify Wordpress Signup page Test
+INFO    2021-06-30 16:23:39,426 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-30 16:23:39,427 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-30 16:23:39,427 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-30 19:42:44,959 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-30 19:42:49,857 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-30 19:42:52,895 [main] com.ui.core.framework.utilities.LoadLogger  - Chrome local driver initialized
+INFO    2021-06-30 19:42:52,909 [main] com.ui.core.framework.utilities.LoadLogger  - chrome driver has been created for execution
+INFO    2021-06-30 19:42:53,036 [main] com.ui.core.framework.utilities.LoadLogger  - TEST START: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-30 19:42:53,333 [main] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-30 19:43:24,503 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-30 19:43:25,026 [main] com.ui.core.framework.utilities.LoadLogger  - Driver instance has been quit from execution
+INFO    2021-06-30 19:43:25,291 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-30 19:43:29,197 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-30 19:43:30,708 [main] com.ui.core.framework.utilities.LoadLogger  - Chrome local driver initialized
+INFO    2021-06-30 19:43:30,719 [main] com.ui.core.framework.utilities.LoadLogger  - chrome driver has been created for execution
+INFO    2021-06-30 19:43:30,795 [main] com.ui.core.framework.utilities.LoadLogger  - TEST START: testSignup - Verify Wordpress Signup page Test
+INFO    2021-06-30 19:43:30,800 [main] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-30 19:43:38,485 [main] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-30 19:44:09,617 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSignup - Verify Wordpress Signup page Test
+INFO    2021-06-30 19:44:10,502 [main] com.ui.core.framework.utilities.LoadLogger  - Driver instance has been quit from execution
+INFO    2021-06-30 19:44:10,506 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-30 19:44:47,926 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-30 19:44:52,530 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-30 19:44:54,745 [main] com.ui.core.framework.utilities.LoadLogger  - Chrome local driver initialized
+INFO    2021-06-30 19:44:54,766 [main] com.ui.core.framework.utilities.LoadLogger  - chrome driver has been created for execution
+INFO    2021-06-30 19:44:54,876 [main] com.ui.core.framework.utilities.LoadLogger  - TEST START: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-30 19:44:55,246 [main] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-30 19:45:02,929 [main] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-30 19:45:34,070 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-30 19:45:34,848 [main] com.ui.core.framework.utilities.LoadLogger  - Driver instance has been quit from execution
+INFO    2021-06-30 19:45:35,111 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-30 19:45:39,298 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-30 19:45:40,811 [main] com.ui.core.framework.utilities.LoadLogger  - Chrome local driver initialized
+INFO    2021-06-30 19:45:40,820 [main] com.ui.core.framework.utilities.LoadLogger  - chrome driver has been created for execution
+INFO    2021-06-30 19:45:40,839 [main] com.ui.core.framework.utilities.LoadLogger  - TEST START: testSignup - Verify Wordpress Signup page Test
+INFO    2021-06-30 19:45:40,863 [main] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-30 19:45:48,689 [main] com.ui.core.framework.utilities.LoadLogger  - Initializing the BasePage elements
+INFO    2021-06-30 19:46:19,767 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSignup - Verify Wordpress Signup page Test
+INFO    2021-06-30 19:46:20,487 [main] com.ui.core.framework.utilities.LoadLogger  - Driver instance has been quit from execution
+INFO    2021-06-30 19:46:20,488 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-30 19:47:05,296 [main] com.ui.core.framework.utilities.LoadLogger  - Killing existing appium process
+INFO    2021-06-30 19:47:07,279 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-30 19:47:07,279 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-30 19:47:08,037 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-30 19:47:12,867 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-30 19:47:12,989 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-30 19:47:13,309 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-30 19:47:17,539 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-30 19:47:17,540 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testSignup - Verify Wordpress Signup page Test
+INFO    2021-06-30 19:47:19,650 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-30 19:47:19,650 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-30 19:47:19,650 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-30 19:52:50,567 [main] com.ui.core.framework.utilities.LoadLogger  - Killing existing appium process
+INFO    2021-06-30 19:52:51,218 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-30 19:52:51,218 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-30 19:52:52,032 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-30 19:52:56,715 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-30 19:52:56,923 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-30 19:52:57,185 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-30 19:53:01,001 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-30 19:53:01,020 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testSignup - Verify Wordpress Signup page Test
+INFO    2021-06-30 19:53:01,043 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-30 19:53:01,043 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-30 19:53:01,043 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1
+INFO    2021-06-30 19:53:12,014 [main] com.ui.core.framework.utilities.LoadLogger  - Killing existing appium process
+INFO    2021-06-30 19:53:13,512 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-30 19:53:13,512 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been started
+INFO    2021-06-30 19:53:14,205 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC02"}
+INFO    2021-06-30 19:53:18,625 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@123_}]
+INFO    2021-06-30 19:53:18,743 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testLogin - Verify Wordpress Login page Test
+INFO    2021-06-30 19:53:19,003 [main] com.ui.core.framework.utilities.LoadLogger  - Query: {"appName": "ui_test", "envName": "qa", "tcName": "TC03"}
+INFO    2021-06-30 19:53:22,876 [main] com.ui.core.framework.utilities.LoadLogger  - [{url=https://www.wordpress.com, emailAddress=ajith.hmath@gmail.com, password=New@12123}]
+INFO    2021-06-30 19:53:22,877 [main] com.ui.core.framework.utilities.LoadLogger  - TEST SKIP: testSignup - Verify Wordpress Signup page Test
+INFO    2021-06-30 19:53:24,986 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-30 19:53:24,986 [main] com.ui.core.framework.utilities.LoadLogger  - Appium server has been stopped
+INFO    2021-06-30 19:53:24,986 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress UI Automation - 1

@@ -28,16 +28,16 @@ public class Wordpress_Login_Test extends BaseTest {
 	public void testValidLogin(Map<String, String> data) throws Exception {
 
 		page.getPageInstance(HomePage.class).navigateTo(data.get("url"));
-		Assert.assertTrue(page.getPageInstance(HomePage.class).verifyWordPressPageDisplayed(), "The Wordpress Homepage has not displayed...");
+		Assert.assertTrue(page.getPageInstance(HomePage.class).verifyWPHomePageDisplayed(), "The Wordpress Homepage has not displayed...");
 		
-		page.getPageInstance(HomePage.class).clickLoginButton();
+		page.getPageInstance(HomePage.class).clickLogin();
 		Assert.assertTrue(page.getPageInstance(LoginAccountPage.class).verifyLoginAccountPageDisplayed(), "'Login into your account' Page has not Displayed...");
 
 		page.getPageInstance(LoginAccountPage.class).login(data);
 		Assert.assertTrue(page.getPageInstance(LandingPage.class).verifyLandingPageDisplayed(), "Login is Unsuccessful...");
 
 		page.getPageInstance(LandingPage.class).logout();
-		Assert.assertTrue(page.getPageInstance(HomePage.class).verifyWordPressPageDisplayed(), "The Wordpress Homepage has not displayed...");
+		Assert.assertTrue(page.getPageInstance(HomePage.class).verifyWPHomePageDisplayed(), "The Wordpress Homepage has not displayed...");
 	}
 	
 	@GetDataFromMongo(dbName = "ui_test", collectionName = "environment_ui", appName = "ui_test", envName = "environment", tcName = "TC03", dataType = "testcaseData")
@@ -45,9 +45,9 @@ public class Wordpress_Login_Test extends BaseTest {
 	public void testInvalidLogin(Map<String, String> data) throws Exception {
 
 		page.getPageInstance(HomePage.class).navigateTo(data.get("url"));
-		Assert.assertTrue(page.getPageInstance(HomePage.class).verifyWordPressPageDisplayed(), "The Wordpress Homepage has not displayed...");
+		Assert.assertTrue(page.getPageInstance(HomePage.class).verifyWPHomePageDisplayed(), "The Wordpress Homepage has not displayed...");
 		
-		page.getPageInstance(HomePage.class).clickLoginButton();
+		page.getPageInstance(HomePage.class).clickLogin();
 		Assert.assertTrue(page.getPageInstance(LoginAccountPage.class).verifyLoginAccountPageDisplayed(), "'Login into your account' Page has not Displayed...");
 
 		page.getPageInstance(LoginAccountPage.class).login(data);

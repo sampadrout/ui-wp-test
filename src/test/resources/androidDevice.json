@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Pixel",
+    "deviceName": "emulator-5556",
+    "platformName": "android",
+    "platformVersion": "10",
+    "automationName": "UIAutomator2",
+    "appPackage": "org.wordpress.android",
+    "appActivity": "org.wordpress.android.ui.WPLaunchActivity",
+    "noReset": true,
+    "fullReset": false,
+    "app": "/Users/sampadrout/workspace/ui-wp-test/src/test/resources/apps/WordPress.apk"
+  }
+]

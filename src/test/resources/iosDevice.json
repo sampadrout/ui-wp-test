@@ -1,0 +1,12 @@
+[
+  {
+    "name": "iphone11",
+    "deviceName": "iPhone SE 2020",
+    "platformName": "iOS",
+    "platformVersion": "13",
+    "automationName": "XCuiTest",
+    "noReset": true,
+    "fullReset": false,
+    "app": "./resources/apps/WordPress.zip"
+  }
+]
