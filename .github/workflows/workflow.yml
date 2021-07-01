@@ -30,6 +30,8 @@ jobs:
           os_version: 14.4
       - name: Prepare android emulator
         uses: reactivecircus/android-emulator-runner@v2
+        env:
+          SELENIUM_HUB_HOST: 'localhost'
         with:
           arch: x86_64
           api-level: 29
