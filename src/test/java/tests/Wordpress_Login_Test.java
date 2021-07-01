@@ -16,9 +16,9 @@ import com.ui.core.framework.base.BaseTest;
 import com.ui.core.framework.db.annotations.GetDataFromMongo;
 import com.ui.core.framework.reporting.TestListener;
 
-import poms.HomePage;
-import poms.LandingPage;
-import poms.LoginAccountPage;
+import pages.HomePage;
+import pages.LandingPage;
+import pages.LoginAccountPage;
 
 @Listeners({ TestListener.class })
 public class Wordpress_Login_Test extends BaseTest {

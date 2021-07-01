@@ -16,8 +16,8 @@ import com.ui.core.framework.db.annotations.GetDataFromMongo;
 import com.ui.core.framework.base.BaseTest;
 import com.ui.core.framework.reporting.TestListener;
 
-import poms.CreateAccountPage;
-import poms.HomePage;
+import pages.CreateAccountPage;
+import pages.HomePage;
 
 @Listeners({ TestListener.class })
 public class Wordpress_CreateAccount_Test extends BaseTest {

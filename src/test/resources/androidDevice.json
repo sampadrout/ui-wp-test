@@ -9,6 +9,6 @@
     "appActivity": "org.wordpress.android.ui.WPLaunchActivity",
     "noReset": true,
     "fullReset": false,
-    "app": "/Users/sampadrout/workspace/ui-wp-test/src/test/resources/apps/WordPress.apk"
+    "app": "src/test/resources/apps/WordPress.apk"
   }
 ]

@@ -1,8 +1,9 @@
 /*
- * @author Ajith H
+ * @author Sampad Rout
 
  * (C) Copyright 2021 by Accion Labs Inc.
  */
+
 package tests;
 
 import com.ui.core.framework.base.BaseTest;
@@ -13,9 +14,9 @@ import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import poms.HomePage;
-import poms.LoginAccountPage;
-import poms.SignupPage;
+import pages.HomePage;
+import pages.LoginAccountPage;
+import pages.SignupPage;
 
 import java.util.Map;
 
@@ -30,10 +31,10 @@ public class Wordpress_Mobile_Test extends BaseTest {
 		if (platform.equalsIgnoreCase("web")) {
 			page.getPageInstance(HomePage.class).navigateTo(data.get("url"));
 		}
-		Assert.assertTrue(page.getPageInstance(HomePage.class).verifyWPHomePageDisplayed(), "The Wordpress Homepage has not displayed...");
+		Assert.assertTrue(page.getPageInstance(HomePage.class).verifyWPHomePageDisplayed(), "The Wordpress Homepage has not displayed");
 		
 		page.getPageInstance(HomePage.class).clickLogin();
-		Assert.assertTrue(page.getPageInstance(LoginAccountPage.class).verifyLoginAccountPageDisplayed(), "'Login into your account' Page has not Displayed...");
+		Assert.assertTrue(page.getPageInstance(LoginAccountPage.class).verifyLoginAccountPageDisplayed(), "'Login into your account' Page has not Displayed");
 	}
 	
 	@GetDataFromMongo(dbName = "ui_test", collectionName = "environment_ui", appName = "ui_test", envName = "environment", tcName = "TC03", dataType = "testcaseData")
@@ -48,9 +49,11 @@ public class Wordpress_Mobile_Test extends BaseTest {
 		Assert.assertTrue(page.getPageInstance(HomePage.class).verifyWPHomePageDisplayed(), "The Wordpress Homepage has not displayed...");
 		
 		page.getPageInstance(HomePage.class).clickSignup();
-		Assert.assertTrue(page.getPageInstance(SignupPage.class).verifySignupWithEmailOptionDisplayed(), "'Login into your account' Page has not Displayed...");
+		Assert.assertTrue(page.getPageInstance(SignupPage.class).verifySignupWithEmailOptionDisplayed(), "Sign up with Email option has not Displayed...");
 
-		page.getPageInstance(SignupPage.class).clickSignUpWithEmail();
-		Assert.assertTrue(page.getPageInstance(SignupPage.class).verifyCreateActWithEmailDisplayed(), "'Email field not displayed to create account");
+		if (platform.equalsIgnoreCase("mobile")) {
+			page.getPageInstance(SignupPage.class).clickSignUpWithEmail();
+			Assert.assertTrue(page.getPageInstance(SignupPage.class).verifyCreateActWithEmailDisplayed(), "'Email field not displayed to create account");
+		}
 	}
 }

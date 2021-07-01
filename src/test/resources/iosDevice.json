@@ -1,12 +1,10 @@
 [
   {
-    "name": "iphone11",
-    "deviceName": "iPhone SE 2020",
+    "name": "iphonese",
+    "deviceName": "iPhone SE (2nd generation)",
     "platformName": "iOS",
-    "platformVersion": "13",
-    "automationName": "XCuiTest",
-    "noReset": true,
-    "fullReset": false,
-    "app": "./resources/apps/WordPress.zip"
+    "platformVersion": "14.5",
+    "automationName": "XCUITest",
+    "app": "/Users/sampadrout/workspace/ui-wp-test/src/test/resources/apps/WordPress.zip"
   }
 ]

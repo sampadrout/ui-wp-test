@@ -1,8 +1,9 @@
-package poms;
+package pages;
 
 import java.util.Map;
 
 import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,6 +17,7 @@ public class LoginAccountPage extends BasePage {
 
 	@FindBy(xpath = "//div[@class='login__form-header']")
 	@AndroidFindBy(id = "label")
+	@iOSXCUITFindBy(accessibility = "Log in to WordPress.com using an email address to manage all your WordPress sites.")
 	private WebElement lbl_LoginAccountPageTitle;
 
 	@FindBy(xpath = "//input[@id='usernameOrEmail']")
@@ -49,12 +51,12 @@ public class LoginAccountPage extends BasePage {
 		super(driver);
 	}
 
-	@Step("Verify 'Login into your account' page displayed...")
+	@Step("'Login into your account' page displayed")
 	public boolean verifyLoginAccountPageDisplayed() throws Exception {
-		return getLabel(wait.waitForElementToBeVisible(lbl_LoginAccountPageTitle, webdriver)).contains("Log in to your account");
+		return getLabel(wait.waitForElementToBeVisible(lbl_LoginAccountPageTitle, webdriver)).contains("Log in to");
 	}
 
-	@Step("Enter Credentials & Login...")
+	@Step("Enter Credentials & Login")
 	public void login(Map<String, String> data) throws Exception {
 		type(wait.waitForElementToBeClickable(txt_EmailAddress, webdriver), data.get("emailAddress"));
 		wait.staticWait(2000);

@@ -1,4 +1,4 @@
-package poms;
+package pages;
 
 import java.util.Map;
 
