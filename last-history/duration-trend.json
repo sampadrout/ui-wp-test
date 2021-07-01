@@ -1,10 +1,3 @@
 [ {
-  "buildOrder" : 15,
-  "reportUrl" : "https://sampadrout.github.io/ui-wp-test/15/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 83334
-  }
-}, {
   "data" : { }
 } ]
