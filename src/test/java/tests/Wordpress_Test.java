@@ -21,7 +21,7 @@ import pages.SignupPage;
 import java.util.Map;
 
 @Listeners({ TestListener.class })
-public class Wordpress_all_Test extends BaseTest {
+public class Wordpress_Test extends BaseTest {
 	
 	@GetDataFromMongo(dbName = "ui_test", collectionName = "environment_ui", appName = "ui_test", envName = "environment", tcName = "TC02", dataType = "testcaseData")
 	@Test(description = "Verify Wordpress Login page Test", priority=1, dataProviderClass = TestNGMongoDataProvider.class, dataProvider = "dataProviderMongo")
