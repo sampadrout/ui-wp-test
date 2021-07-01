@@ -18,7 +18,7 @@ import com.ui.core.framework.reporting.TestListener;
 
 import pages.HomePage;
 import pages.LandingPage;
-import pages.LoginAccountPage;
+import pages.LoginPage;
 
 @Listeners({ TestListener.class })
 public class Wordpress_Login_Test extends BaseTest {
@@ -31,9 +31,9 @@ public class Wordpress_Login_Test extends BaseTest {
 		Assert.assertTrue(page.getPageInstance(HomePage.class).verifyWPHomePageDisplayed(), "The Wordpress Homepage has not displayed...");
 		
 		page.getPageInstance(HomePage.class).clickLogin();
-		Assert.assertTrue(page.getPageInstance(LoginAccountPage.class).verifyLoginAccountPageDisplayed(), "'Login into your account' Page has not Displayed...");
+		Assert.assertTrue(page.getPageInstance(LoginPage.class).verifyLoginAccountPageDisplayed(), "'Login into your account' Page has not Displayed...");
 
-		page.getPageInstance(LoginAccountPage.class).login(data);
+		page.getPageInstance(LoginPage.class).login(data);
 		Assert.assertTrue(page.getPageInstance(LandingPage.class).verifyLandingPageDisplayed(), "Login is Unsuccessful...");
 
 		page.getPageInstance(LandingPage.class).logout();
@@ -48,9 +48,9 @@ public class Wordpress_Login_Test extends BaseTest {
 		Assert.assertTrue(page.getPageInstance(HomePage.class).verifyWPHomePageDisplayed(), "The Wordpress Homepage has not displayed...");
 		
 		page.getPageInstance(HomePage.class).clickLogin();
-		Assert.assertTrue(page.getPageInstance(LoginAccountPage.class).verifyLoginAccountPageDisplayed(), "'Login into your account' Page has not Displayed...");
+		Assert.assertTrue(page.getPageInstance(LoginPage.class).verifyLoginAccountPageDisplayed(), "'Login into your account' Page has not Displayed...");
 
-		page.getPageInstance(LoginAccountPage.class).login(data);
+		page.getPageInstance(LoginPage.class).login(data);
 		Assert.assertTrue(page.getPageInstance(LandingPage.class).verifyLandingPageDisplayed(), "Login is Unsuccessful...");
 
 	}

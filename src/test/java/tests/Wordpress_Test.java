@@ -15,7 +15,7 @@ import org.testng.ITestContext;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.HomePage;
-import pages.LoginAccountPage;
+import pages.LoginPage;
 import pages.SignupPage;
 
 import java.util.Map;
@@ -34,7 +34,7 @@ public class Wordpress_Test extends BaseTest {
 		Assert.assertTrue(page.getPageInstance(HomePage.class).verifyWPHomePageDisplayed(), "The Wordpress Homepage has not displayed");
 		
 		page.getPageInstance(HomePage.class).clickLogin();
-		Assert.assertTrue(page.getPageInstance(LoginAccountPage.class).verifyLoginAccountPageDisplayed(), "'Login into your account' Page has not Displayed");
+		Assert.assertTrue(page.getPageInstance(LoginPage.class).verifyLoginAccountPageDisplayed(), "'Login into your account' Page has not Displayed");
 	}
 	
 	@GetDataFromMongo(dbName = "ui_test", collectionName = "environment_ui", appName = "ui_test", envName = "environment", tcName = "TC03", dataType = "testcaseData")

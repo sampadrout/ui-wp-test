@@ -13,7 +13,7 @@ import com.ui.core.framework.utilities.Wait;
 
 import io.qameta.allure.Step;
 
-public class LoginAccountPage extends BasePage {
+public class LoginPage extends BasePage {
 
 	@FindBy(xpath = "//div[@class='login__form-header']")
 	@AndroidFindBy(id = "label")
@@ -47,7 +47,7 @@ public class LoginAccountPage extends BasePage {
 
 	Wait wait = new Wait();
 
-	public LoginAccountPage(WebDriver driver) throws InterruptedException {
+	public LoginPage(WebDriver driver) throws InterruptedException {
 		super(driver);
 	}
 
