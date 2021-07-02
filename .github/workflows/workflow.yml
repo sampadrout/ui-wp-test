@@ -11,7 +11,8 @@ on:
 
 jobs:
   tests:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
+
     name: UI Automation
     steps:
       - uses: actions/checkout@v2
@@ -27,7 +28,7 @@ jobs:
         uses: futureware-tech/simulator-action@v1
         with:
           model: 'iPhone SE (2nd generation)'
-          os_version: 14.4
+          os_version: 14.5
       - name: Prepare android emulator
         uses: reactivecircus/android-emulator-runner@v2
         env:
